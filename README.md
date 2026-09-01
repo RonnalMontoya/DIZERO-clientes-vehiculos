@@ -86,12 +86,6 @@ Después del `push`, se debe abrir un **Pull Request** en GitHub desde `feature/
 
 El archivo `.github/workflows/ci.yml` define una validación automática que se ejecuta en cada `push` y en los Pull Request dirigidos a `main`.
 
-La canalización:
-
-1. Descarga el código del repositorio.
-2. Configura Python 3.12.
-3. Instala las dependencias de `requirements.txt`.
-4. Ejecuta `python src/manage.py check` para validar la configuración del proyecto Django.
 
 Cuando el proceso termina correctamente, GitHub Actions muestra un **check verde**, que constituye la evidencia de que el CI básico se ejecutó correctamente.
 
