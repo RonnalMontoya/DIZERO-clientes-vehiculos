@@ -85,8 +85,3 @@ Después del `push`, se debe abrir un **Pull Request** en GitHub desde `feature/
 ## CI básico con GitHub Actions
 
 El archivo `.github/workflows/ci.yml` define una validación automática que se ejecuta en cada `push` y en los Pull Request dirigidos a `main`.
-
-
-Cuando el proceso termina correctamente, GitHub Actions muestra un **check verde**, que constituye la evidencia de que el CI básico se ejecutó correctamente.
-
-> En este avance no se incorporan todavía pruebas automatizadas; el flujo queda preparado para agregarlas posteriormente.
