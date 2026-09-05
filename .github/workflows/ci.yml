@@ -25,3 +25,6 @@ jobs:
 
       - name: Verificar proyecto Django
         run: python src/manage.py check
+
+      - name: Ejecutar prueba automatizada CP-I02
+        run: python src/manage.py test clientes_vehiculos --verbosity 2
